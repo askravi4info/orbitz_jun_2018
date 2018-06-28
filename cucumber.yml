@@ -1,0 +1,3 @@
+default: --no-source --color --format pretty --format html --out report.html
+all_smoke_tests:  --no-source --color --format pretty -t @smoke
+all_regression_tests:  --no-source --color --format pretty -t @regression

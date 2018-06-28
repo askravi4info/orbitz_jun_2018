@@ -1,0 +1,23 @@
+qa:
+  dep_city_name: 'columbus'
+  arr_city_name: 'cleveland'
+
+patch:
+  dep_city_name: 'texas'
+  arr_city_name: 'cleveland'
+
+int:
+  dep_city_name: 'boston'
+  arr_city_name: 'cleveland'
+
+
+personal_details:
+  name: 'ravi'
+  company: 'orbiz'
+  id: 42432424
+
+error_messages: ['first error message', 'second error message']
+
+error_messages:
+  first_message: 'first error message'
+  second_message: 'second error message'
