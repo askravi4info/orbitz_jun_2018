@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfaee3b1-45dd-464c-a531-cb813cd83742" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/features/scenarios/cars/orbtiz_cars_search.feature" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/features/support/pages/cars/orbitz_cars_page.rb" />
-      <change beforePath="$PROJECT_DIR$/.idea/orbitz_jun_2018.iml" afterPath="$PROJECT_DIR$/.idea/orbitz_jun_2018.iml" />
+    <list default="true" id="bfaee3b1-45dd-464c-a531-cb813cd83742" name="Default" comment="Adding new scenarios for the JIRA 4343">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/features/support/pages/orbitz_flight_results_page.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/features/support/pages/orbitz_home_page.rb" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="orbitz_home_page.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="orbitz_home_page.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/support/pages/flight/orbitz_home_page.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -28,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orbitz_cars_page.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="orbitz_cars_page.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/cars/orbitz_cars_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="40">
+              <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -42,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/features/scenarios/cars/orbtiz_cars_search.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -173,6 +168,14 @@
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orbitz_jun_2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orbitz_jun_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="orbitz_jun_2018" type="b2602c69:ProjectViewProjectNode" />
@@ -339,7 +342,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530145345219</updated>
-      <workItem from="1530145348607" duration="2384000" />
+      <workItem from="1530145348607" duration="2627000" />
     </task>
     <task id="LOCAL-00001" summary="Updating the scenarios">
       <created>1530146571431</created>
@@ -348,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530146571431</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding new scenarios for the JIRA 4343">
+      <created>1530147771354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530147771354</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2384000" />
+    <option name="totallyTimeSpent" value="2627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2574" height="1532" extended-state="6" />
@@ -398,7 +408,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added all the files to the project" />
     <MESSAGE value="Updating the scenarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating the scenarios" />
+    <MESSAGE value="Adding new scenarios for the JIRA 4343" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new scenarios for the JIRA 4343" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -448,7 +459,15 @@
     <entry file="file://$PROJECT_DIR$/features/scenarios/cars/orbtiz_cars_search.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/cars/orbitz_cars_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -457,14 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/cars/orbitz_cars_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
