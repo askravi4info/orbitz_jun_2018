@@ -1,12 +1,12 @@
 class OrbitzHomePage
-  require_relative '../modules/utilties'
+  require_relative '../modules/es/utilties'
 
   include PageObject
   include Utilities
 
   page_url 'www.orbitz.com'
 
-  button(:select_flight_tab, :id => 'tab-flight-tab-hp')
+  button(:select_flight_tab, :id => 'tab-flight-tab-hps')
   label(:select_round_trip, :id => 'flight-type-roundtrip-label-hp-flight')
   text_field(:dep_airport, :id => 'flight-origin-hp-flight')
   ul(:list_of_airports, :id => 'typeaheadDataPlain')

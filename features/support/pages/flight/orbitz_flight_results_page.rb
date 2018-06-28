@@ -1,6 +1,6 @@
 class OrbitzFlightResultsPage
 
-  require_relative '../../support/modules/utilties'
+  require_relative '../../support/modules/'
   include PageObject
   include Utilities
 
